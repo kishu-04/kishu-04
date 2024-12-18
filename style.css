@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:rgb(62, 219, 243);
+    color:black;
+    padding: 2em 0;
+    text-align: center;
+}
+header nav a {
+    margin: 0 15px;
+    color: #d136bf;
+    text-decoration: none;
+    /* color: black; */
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 10px;
+}
+.profile-photo {
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 30px auto;
+}
+form {
+    max-width: 800px;
+    margin: auto;
+}
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #a3ae0e;
+    border-radius: 20px;
+}
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #a3fa20;
+    color: #1bf5ee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #555;
+}
+
+header p{
+    font-size: 20px;
+    margin-top: 0;
+  
+}
+
+.sect p{
+    font-size: 20px;
+    text-align: center;
+}
